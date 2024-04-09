@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+.music-player{
+    height: 85vh;
+    width: 30vw;
+    background-color: rgb(186, 228, 249);
+    border-radius: 10px;
+
+}
+/* styles for navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+}
+.back-icon{
+    margin-left: 3%;
+    
+    
+}
+.menu{
+    margin-right: 3%;
+}
+
+/* styles for song-cover */
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.cover img{
+    width: 15vw;
+    height: 25vh;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.song-details{
+    margin-top: 20px;
+    color: black;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.artist{
+width: 100%;
+height: 20px;
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+    
+}
+
+
+
+/* style for progress bar */
+.progressbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+#progressbar{
+    width: 90%;
+    -webkit-appearance: none;
+    border: 10px solid rgb(11, 11, 11);
+    border-radius: 20px;
+    background: rgb(204, 12, 99);
+    height: 10px;
+    cursor: pointer;
+    
+}
+#progressbar::-webkit-slider-thumb{
+    background: black;
+}
+.duration{
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+    margin-right: 25px;
+    justify-content: flex-end;
+    
+}
+.icons{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(204, 12, 99);
+    
+}
+
+.play-back{
+    margin-right: 3%;
+    border: 10px solid rgb(16, 14, 14);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.play-back:hover{
+    color:white
+}
+.play-pause{
+    border: 10px solid rgb(13, 10, 10);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.play-pause:hover{
+    color: white;
+    
+}
+.play-next{
+    margin-left: 3%;
+    border: 10px solid rgb(9, 8, 8);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.play-next:hover{
+    color: white;
+    
+}
+#volume{
+    margin-left: 4%;
+    
+}
